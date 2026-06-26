@@ -1,0 +1,154 @@
+E-Commerce Sales Analysis Report
+
+1. Introduction
+
+The purpose of this project is to analyze an e-commerce sales dataset to understand sales performance, profitability, product demand, and regional trends. The analysis helps identify business opportunities, improve decision-making, and optimize sales strategies.
+
+---
+
+2. Objectives
+
+- Analyze overall sales and profit.
+- Identify top-selling products.
+- Analyze category-wise sales performance.
+- Compare sales across different regions.
+- Study monthly and yearly sales trends.
+- Identify the relationship between sales, quantity, and profit.
+- Detect outliers and unusual sales patterns.
+
+---
+
+3. Dataset Description
+
+The dataset contains transaction records of an e-commerce business with the following attributes:
+
+Feature| Description
+Order Date| Date when the order was placed
+Product Name| Name of the product sold
+Category| Product category
+Region| Sales region
+Quantity| Number of units sold
+Sales| Total sales amount
+Profit| Profit earned from the sale
+
+---
+
+4. Data Preprocessing
+
+The following preprocessing steps were performed:
+
+- Imported the dataset.
+- Extracted the dataset from a ZIP file.
+- Checked the dataset structure.
+- Removed duplicate records.
+- Checked for missing values.
+- Converted the Order Date column into datetime format.
+- Created new features including Year, Month, Day, Weekday, and Quarter.
+
+---
+
+5. Exploratory Data Analysis (EDA)
+
+Several analyses were conducted to understand the dataset:
+
+- Dataset overview
+- Statistical summary
+- Missing value analysis
+- Duplicate record analysis
+- Sales distribution
+- Profit distribution
+- Quantity distribution
+- Correlation analysis
+
+---
+
+6. Sales Analysis
+
+Sales were analyzed across different dimensions:
+
+- Monthly Sales Trend
+- Yearly Sales Trend
+- Region-wise Sales
+- Category-wise Sales
+- Top 10 Selling Products
+
+These analyses reveal seasonal trends, high-performing products, and high-revenue regions.
+
+---
+
+7. Profit Analysis
+
+Profit analysis included:
+
+- Profit distribution
+- Region-wise profit
+- Category-wise profit
+- Top profitable products
+- Sales versus Profit relationship
+
+This helps identify which products and regions contribute the most to overall profitability.
+
+---
+
+8. Product Analysis
+
+Product performance was evaluated using:
+
+- Top-selling products
+- Most profitable products
+- Quantity sold by category
+
+This information can be used for inventory management and marketing decisions.
+
+---
+
+9. Correlation Analysis
+
+A correlation heatmap was generated for numerical variables.
+
+The analysis shows the relationship between:
+
+- Sales and Profit
+- Sales and Quantity
+- Quantity and Profit
+
+Positive correlations indicate that increases in one variable are generally associated with increases in another.
+
+---
+
+10. Outlier Detection
+
+Boxplots were used to identify extreme values in:
+
+- Sales
+- Profit
+
+These outliers may represent premium products, bulk purchases, or data anomalies.
+
+---
+
+11. Key Insights
+
+- Monthly sales trends reveal peak business periods.
+- Some regions generate significantly higher revenue than others.
+- A small number of products contribute a large portion of total sales.
+- Certain categories consistently outperform others in both sales and profit.
+- Higher sales generally lead to higher profits, although some high-sales transactions may produce relatively low profits.
+- Outlier transactions indicate exceptionally high-value orders that deserve further investigation.
+
+---
+
+12. Business Recommendations
+
+- Increase inventory for top-selling products.
+- Focus marketing efforts on high-performing regions.
+- Improve pricing strategies for low-profit products.
+- Promote products with high profit margins.
+- Plan promotional campaigns during months with lower sales.
+- Monitor products with consistently low performance and consider discontinuation if necessary.
+
+---
+
+13. Conclusion
+
+The E-Commerce Sales Analysis provides valuable insights into customer purchasing behavior, product performance, and regional sales trends. The results support data-driven decision-making, enabling businesses to improve profitability, optimize inventory, and enhance overall operational efficiency. This analysis can also serve as the foundation for predictive analytics and interactive business dashboards using tools such as Streamlit, Power BI, or Tableau.
